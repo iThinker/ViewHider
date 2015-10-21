@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ViewHider_Example', :exclusive => true do
+  pod "ViewHider", :path => "../"
+end
+
+target 'ViewHider_Tests', :exclusive => true do
+  pod "ViewHider", :path => "../"
+
+  
+end
