@@ -17,8 +17,8 @@
 @property (nonatomic, copy, readwrite) IBOutletCollection(NSLayoutConstraint) NSArray *constraintsToDeactivate;
 
 - (void)vh_setupObserving;
-- (void)vh_startObservingView:(UIView *)view;
-- (void)vh_stopObservingView:(UIView *)view;
+- (void)vh_startObservingView;
+- (void)vh_stopObservingView;
 - (void)vh_hiddenStateChanged:(BOOL)hidden;
 
 @end
@@ -33,7 +33,7 @@ static void * VHObserverHiddenContext = &VHObserverHiddenContext;
     NSAssert(_view == nil, @"View should not be mutated once it is set");
     
     _view = view;
-    [self vh_startObservingView:view];
+    [self vh_startObservingView];
 }
 
 - (void)awakeFromNib {
@@ -46,19 +46,20 @@ static void * VHObserverHiddenContext = &VHObserverHiddenContext;
     [[VHObserverStorage sharedStorage] storeObserver:self];
 }
 
-- (void)vh_startObservingView:(UIView *)view {
-    [view addObserver:self
+- (void)vh_startObservingView {
+    [self.view addObserver:self
            forKeyPath:@"hidden"
               options:NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew
               context:VHObserverHiddenContext];
     __weak typeof(self) weakSelf = self;
-    [VHDeallocObserver observeObject:view handler:^{
-        [weakSelf vh_stopObservingView:weakSelf.view];
+    [VHDeallocObserver observeObject:self.view handler:^{
+        [weakSelf vh_stopObservingView];
     }];
 }
 
-- (void)vh_stopObservingView:(UIView *)view {
-    [view removeObserver:self forKeyPath:@"hidden" context:VHObserverHiddenContext];
+- (void)vh_stopObservingView {
+    [self.view removeObserver:self forKeyPath:@"hidden" context:VHObserverHiddenContext];
+    [[VHObserverStorage sharedStorage] removeObserver:self];
 }
 
 - (void)vh_hiddenStateChanged:(BOOL)hidden {

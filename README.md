@@ -7,9 +7,11 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Simply add `VHViewObserver` object to xib/storyboard. 
+Connect view that is going to be hidden to `view` property. 
+Connect constraints that should be activated when view is hidden to `constraintsToActivate` property.
+Connect constraints that should be deactivated when view is hidden to `constraintsToDeactivate` property.
+Create one `VHViewObserver` for each view you want to be observed.
 
 ## Installation
 
