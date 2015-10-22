@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B4E39E004E2BB8B9FB72DC8EB2A9B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0550F29642B5ABAD5480A7262D3DBB71 /* Foundation.framework */; };
+		1355F9E24379BF4DE4DA8C29C5794932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0550F29642B5ABAD5480A7262D3DBB71 /* Foundation.framework */; };
+		1568FFEA8582A966477E727CF1BF2280 /* ViewHider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5918669D43271BFD3963FBCAAEAD523A /* ViewHider-dummy.m */; };
+		318333B59CA30B3579A6CE2E5DD8769E /* ViewHider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB873B47B57C2D52609FC28D7CEE29D2 /* ViewHider.bundle */; };
+		3588C13B2D1427C7326F9F559548B056 /* Pods-ViewHider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A73D55771F94C8FB70096F72BCF3F /* Pods-ViewHider_Example-dummy.m */; };
+		5507E201DD575D3792DC65033F367CB8 /* Pods-ViewHider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA83BE068E4C31B4545E598C8F43A934 /* Pods-ViewHider_Tests-dummy.m */; };
+		7399D08C647CCB1E0DCCE4030A9586CD /* Pods-ViewHider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A855681E16FDEDD5C0D20C521C94C3C3 /* Pods-ViewHider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F310A1CC68D2F8380DD3ABB52A58078 /* Pods-ViewHider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E83EA3EAEAA265F3728B6A214E6266BF /* Pods-ViewHider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D998487E4208279D0A62296B7D670C61 /* ViewHider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1168B9F7CAA9F8B02EAC9957A627C011 /* ViewHider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D3252F1BD854BC002B2614 /* VHDeallocObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D325291BD854BC002B2614 /* VHDeallocObserver.h */; settings = {ASSET_TAGS = (); }; };
+		E9D325301BD854BC002B2614 /* VHDeallocObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D325291BD854BC002B2614 /* VHDeallocObserver.h */; settings = {ASSET_TAGS = (); }; };
+		E9D325321BD854BC002B2614 /* VHDeallocObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3252A1BD854BC002B2614 /* VHDeallocObserver.m */; settings = {ASSET_TAGS = (); }; };
+		E9D325331BD854BC002B2614 /* VHObserverStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3252B1BD854BC002B2614 /* VHObserverStorage.h */; settings = {ASSET_TAGS = (); }; };
+		E9D325341BD854BC002B2614 /* VHObserverStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3252B1BD854BC002B2614 /* VHObserverStorage.h */; settings = {ASSET_TAGS = (); }; };
+		E9D325361BD854BC002B2614 /* VHObserverStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3252C1BD854BC002B2614 /* VHObserverStorage.m */; settings = {ASSET_TAGS = (); }; };
+		E9D325371BD854BC002B2614 /* VHViewObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3252D1BD854BC002B2614 /* VHViewObserver.h */; settings = {ASSET_TAGS = (); }; };
+		E9D325381BD854BC002B2614 /* VHViewObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3252D1BD854BC002B2614 /* VHViewObserver.h */; settings = {ASSET_TAGS = (); }; };
+		E9D3253A1BD854BC002B2614 /* VHViewObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3252E1BD854BC002B2614 /* VHViewObserver.m */; settings = {ASSET_TAGS = (); }; };
+		F4FB88AA909F590E7A525FBF617C4F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0550F29642B5ABAD5480A7262D3DBB71 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C2C5179240BF87E862CC9433ED2D25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9138C2EDE89F00293EA8F238545E8D;
+			remoteInfo = ViewHider;
+		};
+		8BFBA61091B9E598B0F6BFE980F9A1AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9138C2EDE89F00293EA8F238545E8D;
+			remoteInfo = ViewHider;
+		};
+		AECCF8479207A84CD3E8B959333044C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7590000D3B5EB25AEA2A03F6AB7E506;
+			remoteInfo = "ViewHider-ViewHider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0550F29642B5ABAD5480A7262D3DBB71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		09714BC62CFC2DAC13B7D33E7B8203C2 /* Pods-ViewHider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHider_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		09BF532FECE1AD66449D49638DF5E4DA /* Pods-ViewHider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewHider_Example-resources.sh"; sourceTree = "<group>"; };
+		0B5876445BA96C59D31452490E7A346A /* Pods-ViewHider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewHider_Tests-resources.sh"; sourceTree = "<group>"; };
+		1168B9F7CAA9F8B02EAC9957A627C011 /* ViewHider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewHider-umbrella.h"; sourceTree = "<group>"; };
+		1D1C4F86E7C3343E3978F69390F45D7F /* Pods-ViewHider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ViewHider_Example.modulemap"; sourceTree = "<group>"; };
+		20A5C814A37A712909B602998FD9F74E /* Pods_ViewHider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewHider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BD9C639F6166CFE3D4DA910DBE2826 /* Pods-ViewHider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewHider_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		298DA6B57BDDEA26158CA844E5067A7F /* Pods-ViewHider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		522DA5F0B06F7D97D157152368A1C21D /* Pods-ViewHider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewHider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58F5B9047A703D40FD29C03CDA081A84 /* ViewHider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewHider-prefix.pch"; sourceTree = "<group>"; };
+		5918669D43271BFD3963FBCAAEAD523A /* ViewHider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewHider-dummy.m"; sourceTree = "<group>"; };
+		5BAF93F2D1021BEAA2D659C4DF281169 /* Pods-ViewHider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE436520FE6441C9B884CC65996A2E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6512E7AC50DC80B5EB3E9BE7366A3A39 /* ViewHider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewHider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6847E72BBAD7DBF11278C5C3149B7BFA /* Pods-ViewHider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ViewHider_Tests.modulemap"; sourceTree = "<group>"; };
+		70658C1E79E83A3A6E5745C6531158C9 /* Pods-ViewHider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewHider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77EC516BF590C9940BB72815C6DBAA62 /* Pods-ViewHider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewHider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		783FB782571ACAE73B88B8FDE8061781 /* Pods-ViewHider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewHider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B801C713F2A7F722B8EEADA83E689F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B980449590F49FCEB96E78A1AB46965 /* ViewHider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewHider.xcconfig; sourceTree = "<group>"; };
+		966A73D55771F94C8FB70096F72BCF3F /* Pods-ViewHider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewHider_Example-dummy.m"; sourceTree = "<group>"; };
+		A855681E16FDEDD5C0D20C521C94C3C3 /* Pods-ViewHider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewHider_Example-umbrella.h"; sourceTree = "<group>"; };
+		A97A16E0D020D5C3A61E877458E5E146 /* ViewHider-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ViewHider-Private.xcconfig"; sourceTree = "<group>"; };
+		AA83BE068E4C31B4545E598C8F43A934 /* Pods-ViewHider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewHider_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3254F1E9B6EC60E66BFA592389A96F2 /* Pods-ViewHider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewHider_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB873B47B57C2D52609FC28D7CEE29D2 /* ViewHider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewHider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E2903047CFE9E501CA51D48A9221B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83EA3EAEAA265F3728B6A214E6266BF /* Pods-ViewHider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewHider_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E9D325291BD854BC002B2614 /* VHDeallocObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHDeallocObserver.h; sourceTree = "<group>"; };
+		E9D3252A1BD854BC002B2614 /* VHDeallocObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHDeallocObserver.m; sourceTree = "<group>"; };
+		E9D3252B1BD854BC002B2614 /* VHObserverStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHObserverStorage.h; sourceTree = "<group>"; };
+		E9D3252C1BD854BC002B2614 /* VHObserverStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHObserverStorage.m; sourceTree = "<group>"; };
+		E9D3252D1BD854BC002B2614 /* VHViewObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHViewObserver.h; sourceTree = "<group>"; };
+		E9D3252E1BD854BC002B2614 /* VHViewObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHViewObserver.m; sourceTree = "<group>"; };
+		EC73945111688E54F415AD4645EC5629 /* ViewHider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ViewHider.modulemap; sourceTree = "<group>"; };
+		F1DE150704B956F8F4AE156C1E3A1D33 /* Pods-ViewHider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewHider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2FC5D04C6404943537F86E59836F90 /* Pods_ViewHider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewHider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F56E18F90C00415741CD054DAEA322D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4E39E004E2BB8B9FB72DC8EB2A9B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300E68871D7CFA480EDF3434434B30CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431C68C767611B9BA5C73ADA20A31F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FB88AA909F590E7A525FBF617C4F8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B4C091496CAD72B0C38E13E6483AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355F9E24379BF4DE4DA8C29C5794932 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0306300492A903AF405CB2BD84168A96 /* Pods-ViewHider_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B801C713F2A7F722B8EEADA83E689F0 /* Info.plist */,
+				1D1C4F86E7C3343E3978F69390F45D7F /* Pods-ViewHider_Example.modulemap */,
+				783FB782571ACAE73B88B8FDE8061781 /* Pods-ViewHider_Example-acknowledgements.markdown */,
+				77EC516BF590C9940BB72815C6DBAA62 /* Pods-ViewHider_Example-acknowledgements.plist */,
+				966A73D55771F94C8FB70096F72BCF3F /* Pods-ViewHider_Example-dummy.m */,
+				B3254F1E9B6EC60E66BFA592389A96F2 /* Pods-ViewHider_Example-frameworks.sh */,
+				09BF532FECE1AD66449D49638DF5E4DA /* Pods-ViewHider_Example-resources.sh */,
+				A855681E16FDEDD5C0D20C521C94C3C3 /* Pods-ViewHider_Example-umbrella.h */,
+				F1DE150704B956F8F4AE156C1E3A1D33 /* Pods-ViewHider_Example.debug.xcconfig */,
+				298DA6B57BDDEA26158CA844E5067A7F /* Pods-ViewHider_Example.release.xcconfig */,
+			);
+			name = "Pods-ViewHider_Example";
+			path = "Target Support Files/Pods-ViewHider_Example";
+			sourceTree = "<group>";
+		};
+		21997CC70A5472BAFE72A25B2D22A779 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA46750B1B8B9B176936E9F0263EC681 /* ViewHider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		38F5623CE76FEA6B13365EA2FEDA1B79 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B07EA27F2A6D1C27167D2A28E051869 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4314E4FF1D8FC2160D78C494A81FA285 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0306300492A903AF405CB2BD84168A96 /* Pods-ViewHider_Example */,
+				8EF01A757770FF1E896322C50F5DB17C /* Pods-ViewHider_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0550F29642B5ABAD5480A7262D3DBB71 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				21997CC70A5472BAFE72A25B2D22A779 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				4314E4FF1D8FC2160D78C494A81FA285 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF01A757770FF1E896322C50F5DB17C /* Pods-ViewHider_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE436520FE6441C9B884CC65996A2E8 /* Info.plist */,
+				6847E72BBAD7DBF11278C5C3149B7BFA /* Pods-ViewHider_Tests.modulemap */,
+				522DA5F0B06F7D97D157152368A1C21D /* Pods-ViewHider_Tests-acknowledgements.markdown */,
+				70658C1E79E83A3A6E5745C6531158C9 /* Pods-ViewHider_Tests-acknowledgements.plist */,
+				AA83BE068E4C31B4545E598C8F43A934 /* Pods-ViewHider_Tests-dummy.m */,
+				21BD9C639F6166CFE3D4DA910DBE2826 /* Pods-ViewHider_Tests-frameworks.sh */,
+				0B5876445BA96C59D31452490E7A346A /* Pods-ViewHider_Tests-resources.sh */,
+				E83EA3EAEAA265F3728B6A214E6266BF /* Pods-ViewHider_Tests-umbrella.h */,
+				5BAF93F2D1021BEAA2D659C4DF281169 /* Pods-ViewHider_Tests.debug.xcconfig */,
+				09714BC62CFC2DAC13B7D33E7B8203C2 /* Pods-ViewHider_Tests.release.xcconfig */,
+			);
+			name = "Pods-ViewHider_Tests";
+			path = "Target Support Files/Pods-ViewHider_Tests";
+			sourceTree = "<group>";
+		};
+		9B07EA27F2A6D1C27167D2A28E051869 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9D325291BD854BC002B2614 /* VHDeallocObserver.h */,
+				E9D3252A1BD854BC002B2614 /* VHDeallocObserver.m */,
+				E9D3252B1BD854BC002B2614 /* VHObserverStorage.h */,
+				E9D3252C1BD854BC002B2614 /* VHObserverStorage.m */,
+				E9D3252D1BD854BC002B2614 /* VHViewObserver.h */,
+				E9D3252E1BD854BC002B2614 /* VHViewObserver.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC937E730BA4E7AE88B514EC08F9DE54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8E2903047CFE9E501CA51D48A9221B9 /* Info.plist */,
+				EC73945111688E54F415AD4645EC5629 /* ViewHider.modulemap */,
+				8B980449590F49FCEB96E78A1AB46965 /* ViewHider.xcconfig */,
+				A97A16E0D020D5C3A61E877458E5E146 /* ViewHider-Private.xcconfig */,
+				5918669D43271BFD3963FBCAAEAD523A /* ViewHider-dummy.m */,
+				58F5B9047A703D40FD29C03CDA081A84 /* ViewHider-prefix.pch */,
+				1168B9F7CAA9F8B02EAC9957A627C011 /* ViewHider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ViewHider";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A5C814A37A712909B602998FD9F74E /* Pods_ViewHider_Example.framework */,
+				FD2FC5D04C6404943537F86E59836F90 /* Pods_ViewHider_Tests.framework */,
+				BB873B47B57C2D52609FC28D7CEE29D2 /* ViewHider.bundle */,
+				6512E7AC50DC80B5EB3E9BE7366A3A39 /* ViewHider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA46750B1B8B9B176936E9F0263EC681 /* ViewHider */ = {
+			isa = PBXGroup;
+			children = (
+				38F5623CE76FEA6B13365EA2FEDA1B79 /* Pod */,
+				CC937E730BA4E7AE88B514EC08F9DE54 /* Support Files */,
+			);
+			name = ViewHider;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4285B38A53FD74B073AA4CEF9116186B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F310A1CC68D2F8380DD3ABB52A58078 /* Pods-ViewHider_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA62CDB9A902A6B0D5688E198B26B9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7399D08C647CCB1E0DCCE4030A9586CD /* Pods-ViewHider_Example-umbrella.h in Headers */,
+				E9D3252F1BD854BC002B2614 /* VHDeallocObserver.h in Headers */,
+				E9D325331BD854BC002B2614 /* VHObserverStorage.h in Headers */,
+				E9D325371BD854BC002B2614 /* VHViewObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EB43309391C431CDFB2F9E7308B946 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D998487E4208279D0A62296B7D670C61 /* ViewHider-umbrella.h in Headers */,
+				E9D325301BD854BC002B2614 /* VHDeallocObserver.h in Headers */,
+				E9D325341BD854BC002B2614 /* VHObserverStorage.h in Headers */,
+				E9D325381BD854BC002B2614 /* VHViewObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08C14A42482F1538A3FC25D9212A5183 /* Pods-ViewHider_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E001D981D89BBC771BD59D00D58301F4 /* Build configuration list for PBXNativeTarget "Pods-ViewHider_Example" */;
+			buildPhases = (
+				2BB63290332E38C7EFCF98B16ADF35D5 /* Sources */,
+				0F56E18F90C00415741CD054DAEA322D /* Frameworks */,
+				4DA62CDB9A902A6B0D5688E198B26B9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D094F2DB298E3E7714AA34FA5B28D0B /* PBXTargetDependency */,
+			);
+			name = "Pods-ViewHider_Example";
+			productName = "Pods-ViewHider_Example";
+			productReference = 20A5C814A37A712909B602998FD9F74E /* Pods_ViewHider_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF3D488694609854502DB005CE14A0CC /* Pods-ViewHider_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A00A1F78196E02221C0846FCD04E372 /* Build configuration list for PBXNativeTarget "Pods-ViewHider_Tests" */;
+			buildPhases = (
+				F7050AC44DEC1D18787CD532471C6FEC /* Sources */,
+				F1B4C091496CAD72B0C38E13E6483AC4 /* Frameworks */,
+				4285B38A53FD74B073AA4CEF9116186B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67E40CC5DF2D9C392E64A9F52D9A75ED /* PBXTargetDependency */,
+			);
+			name = "Pods-ViewHider_Tests";
+			productName = "Pods-ViewHider_Tests";
+			productReference = FD2FC5D04C6404943537F86E59836F90 /* Pods_ViewHider_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE9138C2EDE89F00293EA8F238545E8D /* ViewHider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5BAF777555B0906AE9047458879BF6 /* Build configuration list for PBXNativeTarget "ViewHider" */;
+			buildPhases = (
+				0D1970D2394E3A26A17B527EA1341312 /* Sources */,
+				B431C68C767611B9BA5C73ADA20A31F8 /* Frameworks */,
+				C6B45CC7FC635559167B6FD5F692A5E4 /* Resources */,
+				D4EB43309391C431CDFB2F9E7308B946 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E14836F7222BA4A6E07B72385EF082 /* PBXTargetDependency */,
+			);
+			name = ViewHider;
+			productName = ViewHider;
+			productReference = 6512E7AC50DC80B5EB3E9BE7366A3A39 /* ViewHider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7590000D3B5EB25AEA2A03F6AB7E506 /* ViewHider-ViewHider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEB0D7FCE7449328C0432DA8044AE79 /* Build configuration list for PBXNativeTarget "ViewHider-ViewHider" */;
+			buildPhases = (
+				B637B907EDE787743D8A580C78147205 /* Sources */,
+				300E68871D7CFA480EDF3434434B30CF /* Frameworks */,
+				252F43F674D3D9D6D0D7D76EC843347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViewHider-ViewHider";
+			productName = "ViewHider-ViewHider";
+			productReference = BB873B47B57C2D52609FC28D7CEE29D2 /* ViewHider.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C14A42482F1538A3FC25D9212A5183 /* Pods-ViewHider_Example */,
+				BF3D488694609854502DB005CE14A0CC /* Pods-ViewHider_Tests */,
+				CE9138C2EDE89F00293EA8F238545E8D /* ViewHider */,
+				E7590000D3B5EB25AEA2A03F6AB7E506 /* ViewHider-ViewHider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252F43F674D3D9D6D0D7D76EC843347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B45CC7FC635559167B6FD5F692A5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318333B59CA30B3579A6CE2E5DD8769E /* ViewHider.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D1970D2394E3A26A17B527EA1341312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D325361BD854BC002B2614 /* VHObserverStorage.m in Sources */,
+				E9D3253A1BD854BC002B2614 /* VHViewObserver.m in Sources */,
+				E9D325321BD854BC002B2614 /* VHDeallocObserver.m in Sources */,
+				1568FFEA8582A966477E727CF1BF2280 /* ViewHider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB63290332E38C7EFCF98B16ADF35D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588C13B2D1427C7326F9F559548B056 /* Pods-ViewHider_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B637B907EDE787743D8A580C78147205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7050AC44DEC1D18787CD532471C6FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5507E201DD575D3792DC65033F367CB8 /* Pods-ViewHider_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E14836F7222BA4A6E07B72385EF082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ViewHider-ViewHider";
+			target = E7590000D3B5EB25AEA2A03F6AB7E506 /* ViewHider-ViewHider */;
+			targetProxy = AECCF8479207A84CD3E8B959333044C4 /* PBXContainerItemProxy */;
+		};
+		67E40CC5DF2D9C392E64A9F52D9A75ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewHider;
+			target = CE9138C2EDE89F00293EA8F238545E8D /* ViewHider */;
+			targetProxy = 10C2C5179240BF87E862CC9433ED2D25 /* PBXContainerItemProxy */;
+		};
+		8D094F2DB298E3E7714AA34FA5B28D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewHider;
+			target = CE9138C2EDE89F00293EA8F238545E8D /* ViewHider */;
+			targetProxy = 8BFBA61091B9E598B0F6BFE980F9A1AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17536D5358D48EB17FD7FA831A85B76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298DA6B57BDDEA26158CA844E5067A7F /* Pods-ViewHider_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHider_Example/Pods-ViewHider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ViewHider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A986B00C9F2EB8FCD51B0E61F81C1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97A16E0D020D5C3A61E877458E5E146 /* ViewHider-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ViewHider/ViewHider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewHider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewHider/ViewHider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ViewHider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F3C97621C9FE1FE5925CFF731FD71C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DE150704B956F8F4AE156C1E3A1D33 /* Pods-ViewHider_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHider_Example/Pods-ViewHider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ViewHider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6723225BCDD5DAFC6FF80D4F738BBFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97A16E0D020D5C3A61E877458E5E146 /* ViewHider-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ViewHider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9346D57B9E77956309D81EC2DE196AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09714BC62CFC2DAC13B7D33E7B8203C2 /* Pods-ViewHider_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHider_Tests/Pods-ViewHider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ViewHider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20D581E5BEED7E5965185AFBDAE1351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97A16E0D020D5C3A61E877458E5E146 /* ViewHider-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ViewHider/ViewHider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewHider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewHider/ViewHider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ViewHider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5CDA50400FF3B446A04A0986F1BB5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAF93F2D1021BEAA2D659C4DF281169 /* Pods-ViewHider_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ViewHider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ViewHider_Tests/Pods-ViewHider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ViewHider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E87F5546A5930772D08F00922B85F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97A16E0D020D5C3A61E877458E5E146 /* ViewHider-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ViewHider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5BAF777555B0906AE9047458879BF6 /* Build configuration list for PBXNativeTarget "ViewHider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A986B00C9F2EB8FCD51B0E61F81C1B2 /* Debug */,
+				A20D581E5BEED7E5965185AFBDAE1351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A00A1F78196E02221C0846FCD04E372 /* Build configuration list for PBXNativeTarget "Pods-ViewHider_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CDA50400FF3B446A04A0986F1BB5F5 /* Debug */,
+				9346D57B9E77956309D81EC2DE196AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEB0D7FCE7449328C0432DA8044AE79 /* Build configuration list for PBXNativeTarget "ViewHider-ViewHider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6723225BCDD5DAFC6FF80D4F738BBFD1 /* Debug */,
+				E87F5546A5930772D08F00922B85F5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E001D981D89BBC771BD59D00D58301F4 /* Build configuration list for PBXNativeTarget "Pods-ViewHider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3C97621C9FE1FE5925CFF731FD71C7 /* Debug */,
+				17536D5358D48EB17FD7FA831A85B76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

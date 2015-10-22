@@ -1,0 +1,14 @@
+PODS:
+  - ViewHider (0.1.0)
+
+DEPENDENCIES:
+  - ViewHider (from `../`)
+
+EXTERNAL SOURCES:
+  ViewHider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ViewHider: c849927bd4d638963c3a909969f77816c72e4020
+
+COCOAPODS: 0.38.2

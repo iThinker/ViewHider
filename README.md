@@ -1,6 +1,6 @@
 # ViewHider
 
-[![CI Status](http://img.shields.io/travis/Roman Temchenko/ViewHider.svg?style=flat)](https://travis-ci.org/Roman Temchenko/ViewHider)
+[![CI Status](http://img.shields.io/travis/iThinker/ViewHider.svg?style=flat)](https://travis-ci.org/iThinker/ViewHider)
 [![Version](https://img.shields.io/cocoapods/v/ViewHider.svg?style=flat)](http://cocoapods.org/pods/ViewHider)
 [![License](https://img.shields.io/cocoapods/l/ViewHider.svg?style=flat)](http://cocoapods.org/pods/ViewHider)
 [![Platform](https://img.shields.io/cocoapods/p/ViewHider.svg?style=flat)](http://cocoapods.org/pods/ViewHider)
