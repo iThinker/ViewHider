@@ -65,8 +65,8 @@ static void * VHObserverHiddenContext = &VHObserverHiddenContext;
 - (void)vh_hiddenStateChanged:(BOOL)hidden {
     NSArray *constraintsToDeactivate = hidden ? self.constraintsToDeactivate : self.constraintsToActivate;
     NSArray *constraintsToActivate = hidden ? self.constraintsToActivate : self.constraintsToDeactivate;
-    [constraintsToDeactivate setValue:@(NO) forKey:@"active"];
-    [constraintsToActivate setValue:@(YES) forKey:@"active"];
+    [NSLayoutConstraint deactivateConstraints:constraintsToDeactivate];
+    [NSLayoutConstraint activateConstraints:constraintsToActivate];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath
